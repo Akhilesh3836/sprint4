@@ -8,7 +8,7 @@ pipeline{
 		stage("Cloning Git"){
 		  steps{
 			echo 'Cloning Repo...'
-			git([url: 'https://github.com/Ankit64s/Sprint4.git', branch: 'master', credentialsId: 'GITHUB_CREDS'])
+			git([url: 'https://github.com/Akhilesh3836/Sprint4.git', branch: 'master', credentialsId: 'GITHUB_CREDS'])
 		  }
 		}
 		stage('Building image') {
